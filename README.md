@@ -9,7 +9,7 @@ replit + uptimerobotで，作ったbotを無料で公開できる．
 ## discord.pyの導入
 つまづいたところ
 * `discord.py[voice]`のインストール
-[公式ドキュメント][https://discordpy.readthedocs.io/ja/latest/intro.html]が少し間違ってた
+[公式ドキュメント](https://discordpy.readthedocs.io/ja/latest/intro.html)が少し間違ってた
 
 以下だとうまくいく（mac）
 ```
