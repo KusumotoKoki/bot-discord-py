@@ -1,32 +1,28 @@
 # bot-discord-py
-
 ## example_bot.py
-
 ### 機能
-
 * !hello で反応
 * !embed でembedメッセージの例を送る
 * ボイスチャンネルに入った状態で，!join !leaveで入退室
 * ボイスチャンネルに入った状態で，!playで音声テスト再生
 
 ### 注意
-
 * botのtokenを，developer portalから取得する
 * developer portal のbotのせっていのところから，Privileged Gateway Intentsをオンにしておく
 
 ### ローカルで動かす
-
 ```
 (venv) $ python example_bot.py
 ```
 
 ### replit + uptimerobot で動かす
-
 つまづいたとこのみ書く
 * .pyファイルをやや変更
 ```
 import os
 from keep_alive import keep_alive
+
+# もとのこーど
 
 TOKEN = os.environ['SECRET_DISCORD_TOKEN']
 keep_alive()
@@ -59,12 +55,29 @@ def keep_alive():
 ```
 $ python3 -m pip install -U "discord.py[voice]"
 $ ffmpeg --version
-
-ここで謎のコードが走っている...
+```
+ここで謎のコードが走る...
 ffmpeg.binとなにかのどっちかをえらばされるので，前者を選択
-
+```
 ffmpeg: command not installed. Multiple versions of this command were found in Nix.
 Select one to run (or press Ctrl-C to cancel):
 Adding ffmpeg.bin to replit.nix
 success
 ```
+
+## voicevox_bot.py
+### 機能
+* !hello で反応
+* ボイスチャンネルに入った状態で，!join !leaveで入退室
+* ボイスチャンネルに入った状態で，!playで音声テスト再生
+* ボイスチャンネルに入った状態で，"!read {読み上げたい文章}"で読み上げ
+
+### 注意
+* botのtokenを，developer portalから取得する
+* developer portal のbotのせっていのところから，Privileged Gateway Intentsをオンにしておく
+* ローカルで実行した場合にしか動かない
+
+### ローカルで動かす
+* VOICEVOX アプリをローカルで起動する
+    * これで<http://localhost:50021/docs>にアクセスして，ドキュメントが読めればOK
+* voicevox_bot.pyを実行
