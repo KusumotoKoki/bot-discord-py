@@ -1,7 +1,8 @@
 # bot-discord-py
 勉強用．  
-discord.pyを使って，discordのbotを作った．
-ボイスチャンネルに入る・出る機能，音声読み上げ機能の実装
+discord.pyを使って，discordのbotを作った． <br>
+ボイスチャンネルに入る・出る機能，VOICEVOXでの音声読み上げ機能の実装．<br>
+replit + uptimerobotで，作ったbotを無料で公開できる．
 
 ## example_bot.py
 ### 機能
