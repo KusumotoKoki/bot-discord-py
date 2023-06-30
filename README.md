@@ -1,4 +1,6 @@
 # bot-discord-py
+discord.pyを使って，discordのbotを作った（勉強用）
+
 ## example_bot.py
 ### 機能
 * !hello で反応
