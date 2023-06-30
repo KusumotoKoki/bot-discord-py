@@ -1,5 +1,7 @@
 # bot-discord-py
-discord.pyを使って，discordのbotを作った（勉強用）
+勉強用．  
+discord.pyを使って，discordのbotを作った．
+ボイスチャンネルに入る・出る機能，音声読み上げ機能の実装
 
 ## example_bot.py
 ### 機能
@@ -66,6 +68,8 @@ Select one to run (or press Ctrl-C to cancel):
 Adding ffmpeg.bin to replit.nix
 success
 ```
+
+* 注意点として，!stopを実行すると再度replitからRunしないといけなくなるので，botを公開する場合は!stop消すべき
 
 ## voicevox_bot.py
 ### 機能
