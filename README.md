@@ -4,6 +4,18 @@ discord.pyを使って，discordのbotを作った． <br>
 ボイスチャンネルに入る・出る機能，VOICEVOXでの音声読み上げ機能の実装．<br>
 replit + uptimerobotで，作ったbotを無料で公開できる．
 
+実行環境：macOS
+
+## discord.pyの導入
+つまづいたところ
+* `discord.py[voice]`のインストール
+[公式ドキュメント][https://discordpy.readthedocs.io/ja/latest/intro.html]が少し間違ってた
+
+以下だとうまくいく（mac）
+```
+python3 -m pip install -U "discord.py[voice]"
+```
+
 ## example_bot.py
 ### 機能
 * !hello で反応
